@@ -1,0 +1,32 @@
+{
+    "at_view_pig": {
+        "description": "开启艾特他人查看今日小猪功能",
+        "hint": "是否允许通过艾特他人来查看对方的今日小猪，默认为关闭",
+        "type": "bool",
+        "default": false
+    },
+    "roll_pig_commands": {
+        "description": "抽取今日小猪的触发指令（可添加多个）",
+        "hint": "消息内容完全等于列表中任意一项时即可触发抽取，可自行增删、修改，留空则使用默认值",
+        "type": "list",
+        "default": ["今日小猪", "抽小猪", "我的小猪", "rollpig"]
+    },
+    "roll_pig_need_at": {
+        "description": "抽取今日小猪是否需要艾特机器人",
+        "hint": "开启后，必须艾特机器人（或私聊）才能触发抽取；关闭后群聊中直接发送指令即可触发",
+        "type": "bool",
+        "default": false
+    },
+    "pigpen_commands": {
+        "description": "查看猪圈图鉴的触发指令（可添加多个）",
+        "hint": "消息内容完全等于列表中任意一项时即可触发查看图鉴，可自行增删、修改，留空则使用默认值",
+        "type": "list",
+        "default": ["我的猪圈", "猪圈图鉴", "猪猪图鉴", "pigpen"]
+    },
+    "pigpen_need_at": {
+        "description": "查看猪圈图鉴是否需要艾特机器人",
+        "hint": "开启后，必须艾特机器人（或私聊）才能触发查看图鉴；关闭后群聊中直接发送指令即可触发",
+        "type": "bool",
+        "default": false
+    }
+}
